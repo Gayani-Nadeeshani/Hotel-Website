@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--boostrap cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap-grid.min.css">
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header section start-->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>OCEAN</span>one</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#packages">packages</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!--header section end-->
+
+    <!--login form container-->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot password?<a href="#"> click here</a></p>
+            <p>don't have and account?<a href="#">register now</a></p>
+        
+        </form>
+    </div>
+
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to OceanOne Beach Hotel </h3>
+            <P>Experience the beauty and serenity of our beachfront paradise</P>
+        </div>
+        <div class="controls">
+            <span class="img-btn active" data-src="bg4.jpg"></span>
+            <span class="img-btn" data-src="bg3.jpg"></span>
+            <span class="img-btn" data-src="bg1.jpg"></span>
+            <span class="img-btn" data-src="bg2.jpg"></span>
+        </div>
+        <div class="img-container">
+            <img src="bg4.jpg" id="img-slider">
+        </div>
+    </section>
+    <!--home section end-->
+
+    <!--about section start-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="about.jpg" alt="">
+        </div>
+        <div class="content">
+            <h2>ABOUT US</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius natus quos sequi quia ipsam ullam eaque voluptatibus ut! Voluptate tempora reiciendis expedita officiis? Enim dolorem necessitatibus fugit officiis aliquid minus. Ipsam itaque molestias dicta temporibus officiis est vel unde cumque nihil nesciunt, esse odit molestiae non asperiores sit aperiam quaerat laborum, iusto magnam delectus voluptates id ipsa dignissimos autem. 
+                provident quo ad rerum sit minima nulla. </p>
+            <a href="about.jpg" class="btn">read more</a>
+        </div>
+    </section>
+    <!--about section end-->
+
+    <!--packages section start-->
+    <section class="packages" id="packages">
+        <h2 class="heading">
+            OUR PACKAGES
+        </h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="img3.jpeg" alt="">
+                <div class="content">
+                    <h3>Family Fun</h3>
+                    <p>Perfect for families, offering complimentary access to the kids' club and a variety of family-friendly activities.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$399 <span>$450</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img2.jpeg" alt="">
+                <div class="content">
+                    <h3>Romantic Getaway</h3>
+                    <p>Ideal for couples, this package includes a romantic beach dinner under the stars and a sunset cruise.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$499 <span>$550</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img6.jpeg" alt="">
+                <div class="content">
+                    <h3>Adventure</h3>
+                    <p>Tailored for adventure enthusiasts, this package includes guided water sports, snorkeling trips, and a hiking excursion.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$299 <span>$350</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--packages section end-->
+    <!--contact section start-->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.4146303212997!2d80.50076197479625!3d8.360808699090795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afc8a63370239cb%3A0xfde408ba97b0d4d3!2sRajarata%20University%20of%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1699879421803!5m2!1sen!2slk" frameborder="0" height="auto" width="100%" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-text">
+                    <h1>CONTACT US</h1>
+                    <h2><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Address</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nemo.</p>
+                    <h2><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Phone</h2>
+                    <p>+91 098 258 456</p>
+                    <h2><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;email</h2>
+                    <p>infor@oceanone.com</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!--contact section end-->
+
+    <!--footer ssection start-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><span>OCEAN</span>ONE</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellendus architecto a sit nemo enim cumque fuga ipsam perferendis consequatur. Ad.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">USA</a>
+                <a href="#">JAPAN</a>
+                <a href="#">INDIA</a>
+                <a href="#">AUSTRALIA</a>
+            </div>
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">packages</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit">created by <span>GayaniNadeeshani</span> | all right reserved!!</h1>
+    </section>
+    <!--footer section end-->
+
+   <!--custom js file link-->
+   <script src="main.js"></script>
+</body>
+</html>
